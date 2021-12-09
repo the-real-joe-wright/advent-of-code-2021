@@ -79,9 +79,6 @@
     result))
 
 (defun star2 (filename)
-  (let ((filedata (read-file-data filename))
-        (result 0))
-    (setf result (process-data-lines filedata))
-    result))
+  (process-data-lines (read-file-data filename)))
 
 (star2 "/Users/joe/advent-of-code-2021/8.txt")
