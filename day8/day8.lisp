@@ -82,7 +82,6 @@
   (let ((filedata (read-file-data filename))
         (result 0))
     (setf result (process-data-lines filedata))
-    result
-    ))
+    result))
 
-(star2 "/Users/joe/Joe/advent-of-code-2021/8.txt")
+(star2 "/Users/joe/advent-of-code-2021/8.txt")
